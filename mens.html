@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        #main
+        {   display: flex;
+            width: 90%;
+            height: 550px;
+          
+            margin: auto;
+            margin-top: 50px;
+        }
+        #main > div{
+          
+            width: 50%;
+           height: 500px;
+            
+        }
+        
+        .inner > div:first-child{
+           height: 350px;
+            width: 80%;
+          
+            margin: auto;
+        }
+        .inner > div:last-child{
+           height: 150px;
+            width: 80%;
+            
+            margin: auto;
+        }
+        img{
+            height: 350px;
+            padding-left: 180px;
+        }
+      .word1
+      {
+          font-weight:bold;
+          font-size: 30px;
+      }
+      .word
+      {
+        color:#1daf6a ;
+        font-size: 30px;
+        padding-left: 8px;
+      }
+      del{
+          font-size: 20px;
+          font-family:Arial, Helvetica, sans-serif
+      }
+      h1 + p{
+          font-size: 30px;
+          color: gray;
+          font-family:Arial, Helvetica, sans-serif ;
+      }
+      h1+p+p
+      {
+          padding-top: 8px;
+      }
+      .rupee
+      { color: gray;
+        font-size: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+       }
+       h1{
+        font-family:Arial, Helvetica, sans-serif;
+
+       }
+       
+    </style>
+    
+</body>
+ <div id="main">
+     <div class="inner">
+         <div>
+             <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPPAUSE-BLACK-PAUS57747861200F37/1562877340930_1..jpg?imwidth=320&impolicy=hq" alt="">
+         </div>
+         <div>
+             <h1>Pause</h1>
+             <p>Men Cotton Long Sleeves Shrug</p>
+             <p><span class="word1">&#8377 359</span> <del class="rupee"> &#8377 1, 499 </del> <span class="word">-76%</span></p>
+         </div>
+     </div>
+     <div class="inner">
+         <div>
+             <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPJUBINATION-SJERS295568BD3913AD/1562955990957_0..jpg?imwidth=320&impolicy=hq" alt="">
+         </div>
+         <div>
+             <h1>JUBINATION</h1>
+             <P>Men Wool Sleeveless Sweater Pack Of 1</P>
+            <p><span class="word1">&#8377 799</span> <del class="rupee"> &#8377 1, 499 </del><span class="word"> -47%</span></p>
+         </div>
+     </div>
+
+ </div>
+    
+</html>
