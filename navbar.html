@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
-        #container{
+        #container {
             display: grid;
-            grid-template-columns: repeat(12,1fr);
+            grid-template-columns: repeat(12, 1fr);
             grid-template-rows: auto;
             width: 95%;
             border-radius: 10px;
@@ -20,27 +20,38 @@
             padding-bottom: 10px;
         }
 
-        p{
+        p {
             color: white;
+            cursor: pointer;
         }
 
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(168, 172, 174);
+        }
     </style>
 </head>
+
 <body>
     <div id="container">
-    <p>Reebok</p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p>Men</p>
-    <p>Women</p>
-    <p>Login</p>
-    <p>Signup</p>
+        <p>Reebok</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p><a href="mens.html">Men</a> </p>
+        <p>Women</p>
+        <p><a href="login.html">Login</a></p>
+        <p> <a href="signup.html">Signup</a></p>
     </div>
-    
+
 </body>
+
 </html>
